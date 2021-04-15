@@ -19,7 +19,7 @@ edition = "2018"
 
 [dependencies]
 # TODO fork to our org
-curve25519-dalek = { git = "https://github.com/PaulGrandperrin/curve25519-dalek.git", rev = "d0dacb2", default-features = false, features = ["u64_backend", "serde"] }
+curve25519-dalek = { version = "4.0.0-pre.0", default-features = false, features = ["u64_backend", "serde"] }
 
 subtle = { version = "2", default-features = false }
 sha3 = { version = "0.9.1", default-features = false }
